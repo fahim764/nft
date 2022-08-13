@@ -1,0 +1,311 @@
+@media screen and (min-width: 180px) and (max-width: 2000px) {
+
+    .profile-menu  {
+        right: 260px;
+    }
+
+
+}
+
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .nav-items li {
+        padding: 10px 30px;
+    }
+
+    .profile-part img {
+        margin-left: 15px;
+
+    }
+
+    .profile-menu  {
+        right: 30px;
+    }
+
+    .profile-menu::before {
+        display: none;
+    }
+
+    .main-content .owl-theme .custom-nav .owl-prev {
+       
+        left: -30px;
+    }
+    
+    .main-content .owl-theme .custom-nav .owl-next {
+      
+        right: -30px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+      /* Nav Area */
+
+      .nav-items ul {
+        display: none;
+    }
+
+    .profile-part {
+        display: none;
+    }
+
+    .menu-bar-btn {
+        display: block;
+    }
+
+    /*  */
+   
+    .hero-title h3 {
+        font-size: 52px;
+    }
+    
+    .owl-theme .owl-dots .owl-dot span {
+        display: none;
+       }
+
+       .main-content .owl-theme .custom-nav .owl-prev {
+        top: 70px;
+        left: -40px;
+    }
+    
+    .main-content .owl-theme .custom-nav .owl-next {
+        top: 70px;
+        right: -40px;
+    }
+
+    .art-area {
+        padding: 50px 0 20px 0;
+    }
+
+    .art-btn {
+        padding: 30px 0 0 0;
+    }
+    
+    
+ 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (max-width: 767px) {	
+
+    /* Nav Area */
+
+    .nav-items ul {
+        display: none;
+    }
+
+    .profile-part {
+        display: none;
+    }
+
+    .menu-bar-btn {
+        display: block;
+    }
+
+      /*  */
+
+      .hero-area {
+        padding: 130px 0 0 0;
+    }
+    
+    .hero-title h3 {
+        font-size: 36px;
+    }
+    
+    .hero-title h2 {
+        font-size: 50px;
+    }
+
+    /*  Art Area Start */
+
+    .art-area {
+        padding: 50px 0 0 0;
+    }
+
+    .art-title h2 {
+        font-size: 28px;
+    }
+
+    .art-info h3 {
+        font-size: 22px;
+    }
+
+    .art-info h4 {
+        font-size: 14px;
+    }
+
+    .price-info h2 {
+        font-size: 20px;
+    }
+
+    .art-btn {
+        padding: 20px 0 0 0;
+    }
+    
+    .art-btn a {
+        font-size: 24px;
+        padding: 14px 35px;
+    }
+
+    .main-content .owl-theme .custom-nav {
+     display: none;
+    }
+
+    .owl-theme .owl-dots .owl-dot span {
+       display: none;
+      }
+
+    /* footer */
+
+    .footer-menu {
+        padding-left: 0;
+        margin: 30px 0;
+    }
+    
+    
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
